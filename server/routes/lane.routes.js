@@ -16,6 +16,6 @@ router.route('/lanes').post(LaneController.addLane);
 router.route('/lanes/:laneId').delete(LaneController.deleteLane);
 
 // Change lane name
-router.route('/lanes/:laneId').put(PostController.editLaneName);
+router.route('/lanes/:laneId').put(LaneController.editLaneName);
 
 export default router;

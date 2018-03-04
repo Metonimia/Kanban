@@ -49,7 +49,7 @@ export function deleteNoteRequest(noteId, laneId) {
 export function editNote(noteId, note) {
   return {
     type: EDIT_NOTE,
-    noteId
+    noteId,
     note
   };
 }
